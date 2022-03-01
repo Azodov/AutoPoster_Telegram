@@ -1,0 +1,16 @@
+[Unit]
+Description=AutoPosting Bot
+After=network.target
+
+[Service]
+User=root
+Group=root
+Restart=always
+RestartSec=10800
+
+# WorkingDirectory=/
+# Environment="PYTHONPATH=/"
+ExecStart=bot.py
+
+[Install]
+WantedBy=multi-user.target

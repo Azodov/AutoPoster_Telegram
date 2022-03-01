@@ -1,0 +1,4 @@
+pytz
+pyrogram
+tgcrypto
+peewee

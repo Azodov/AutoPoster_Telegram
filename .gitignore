@@ -1,0 +1,7 @@
+*.session
+*.db
+
+__pycache__/
+
+media/*.jpg
+media/*.mp4
